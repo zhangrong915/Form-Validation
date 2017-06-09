@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="main">
+        <h3>表单-注册</h3>
+        <div><input type="text" name="account" class="account" placeholder="请输入账号"/>
+             <p class="account-Alert">注意：以字母开头，只允许出现字母、数字、下划线，长度6-20位</p>
+        </div>
+         <div><input type="password" name="password" class="passworda" placeholder="请输入密码"/>
+             <p class="passworda-Alert">注意：必须要有大小写字母和数字，且长度8-10位</p>
+        </div>
+         <div><input type="password" name="password" class="passwordb" placeholder="请确认密码"/>
+             <p class="passwordb-Alert">注意：两次密码输入不一致</p>
+         </div>
+         <div><input type="email" name="email" class="email" placeholder="请输入邮箱"/>
+             <p class="email-Alert">注意：无效的邮箱</p>
+        </div>
+         <div><input type="button" class="button" value="注册"/>
+            <p class="submit-Alert">注意：信息格式错误，请检查信息</p>
+         </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
